@@ -1,0 +1,25 @@
+td {
+  border: 1px solid black;
+  height: 75px;
+  width: 75px;
+  padding: 40px;
+  text-align: center;
+  background-color:#B81400;
+  color: #ADA2A8;
+  font-size: 50px;
+  }
+  table {
+    margin-left: 35%;
+    
+  }
+  .canvas{
+    pointer-events: none;
+  }
+  h1{
+    text-align: center;
+    font-family: 'Mali', cursive;
+    color: #ADA2A8;
+  }
+  body{
+    background-color:#000;
+  }

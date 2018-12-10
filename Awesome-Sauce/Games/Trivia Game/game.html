@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game!</title>
+    <link href='style.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Spicy+Rice" rel="stylesheet">
+</head>
+<body>
+    <div id="HomePage">
+
+                <h1 id="title">
+                    Welcome to the Triva Game!
+                </h1>
+                <div class="nameForm">
+                    <form name='myForm' action="game.html" onsubmit="return validate()" method="post">
+                            <p>To start the game enter your name and press submit.</p>
+                            <input type="text" id="playerName">
+                            <input onclick="hideHome()" type="submit" value="Submit">
+                        </form>
+                    <p id='response'></p>
+                </div>
+                <script src="script.js"></script>
+        </div>
+    <div id="GamePage">
+
+        <h1 id="top">Choose a point value in a category</h1>
+    <div id="gameboard">
+        
+        <button id='quit' onclick="endGame()">Quit</button>
+        <h2 id="Score">Score: </h2>
+        <h2 id='result'></h2>
+        <table>
+            <tr>
+                <th>Computers</th>
+                <div class="cat1num">
+                    <div><td id='comp200' onclick="clickedCompEasy(200)">200</td></div>
+                    <div><td id="comp400" onclick="clickedCompEasy(400)" >400</td></div>
+                    <div><td id="comp600" onclick="clickedCompMedium(600)">600</td></div>
+                    <div><td id="comp800" onclick="clickedCompMedium(800)">800</td></div>
+                    <div><td id="comp1000" onclick="clickedCompHard(1000)">1000</td></div>
+                </div>
+            </tr>
+            <tr>
+                <th>Video games</th>
+                <div class="cat2num"></div>
+              <div><td id="VG200" onclick="clickedVGEasy(200)">200 </td></div>  
+              <div><td id="VG400" onclick="clickedVGEasy(400)">400 </td></div> 
+              <div><td id="VG600" onclick="clickedVGMedium(600)">600 </td></div> 
+              <div><td id="VG800" onclick="clickedVGMedium(800)">800 </td></div> 
+              <div><td id="VG1000" onclick="clickedVGHard(1000)"> 1000 </td></div>
+            </tr>
+            <tr>
+                <th>Cartoons</th>
+                <div class="cat3num"></div>
+                <div> <td id="cart200" onclick="clickedCartEasy(200)"> 200</td></div> 
+                <div> <td id="cart400" onclick="clickedCartEasy(400)"> 400</td></div>
+                <div> <td id="cart600" onclick="clickedCartMedium(600)"> 600</td></div>
+                <div> <td id="cart800" onclick="clickedCartMedium(800)"> 800</td></div>
+                <div> <td id="cart1000" onclick="clickedCartHard(1000)">1000</td></div>
+            </tr>
+        </table>
+    </div>
+        </div>
+    <div id="QuestionPage">
+        <h1>Here is your question!</h1>
+        <div id="questionDiv">
+            <h4 id="question"></h4>
+            <div id="answers">
+                <h5 id="answer1" onclick="checkAnswer(1)"></h5>
+                <h5 id="answer2" onclick="checkAnswer(2)"></h5>
+                <h5 id="answer3" onclick="checkAnswer(3)"></h5>
+                <h5 id="answer4" onclick="checkAnswer(4)"></h5>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
