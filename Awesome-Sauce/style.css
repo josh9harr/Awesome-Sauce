@@ -1,0 +1,51 @@
+html{
+    background: #000;
+}
+#forms{
+    align-content: center;
+}
+.button{
+    height: 25px;
+    width: 60px;
+    padding: 5px;
+    background: #ada2a8;
+    border: 1px black solid;
+    margin-left: 750px;
+    text-align: center;
+}
+#nav{
+    height: 250px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    width: 100%;
+    background: #b81400;
+    padding-top: 1px;
+}
+img{
+    height: 145px;
+    width: 200px;
+    padding: 10px;
+    overflow: auto;
+    float: left;
+}
+h1,h2,p{
+	font-family: 'Mali', cursive;
+    text-align: center;
+}
+.game{
+    background: #ada2a8;
+    border: 3px solid #000;
+    height: 170px;
+    width: 700px;
+    margin: 20px 0px 20px 300px;  
+}
+
+#gameSection{
+    background: #b81400;
+    height: 1000px;
+    width: 1300px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+
+}

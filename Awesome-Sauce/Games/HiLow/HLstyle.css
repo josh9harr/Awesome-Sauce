@@ -1,0 +1,47 @@
+#name{
+    color: #FFF800;
+    background: #5000EB;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+h2{
+    text-align: center;
+    font-size: 70px;
+}
+#score{
+    float: left;
+    margin-left: 300px;
+}
+#numBox{
+    height: 200px;
+    width: 900px;
+    background: #000;
+    color: #fff;
+    margin-left: 300px;
+    font-size: 150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    padding-top: 20px
+}
+
+#Higher, #Lower{
+    color: #FFF800;
+    background: #5000EB;
+    height: 100px;
+    width: 300px;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Lower{
+    float: left;
+    margin-left: 350px;
+}
+#Higher{
+    margin-left: 850px;
+}
